@@ -66,4 +66,13 @@ body {
 	font-size: 14px;
 }
 
+.sidebarNav {
+	width: 100%;
+	color: #c9afff;
+	padding: 0 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
 /* Sidebar styling section end */
