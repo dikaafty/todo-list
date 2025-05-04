@@ -21,8 +21,8 @@ body {
 	border-radius: 100px;
 	cursor: pointer;
 	position: fixed;
-	top: 4%;
-	left: 2%;
+	top: 25px;
+	left: 25px;
 	z-index: 10;
 }
 
