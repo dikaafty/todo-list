@@ -30,6 +30,8 @@ body {
 	outline: 1px solid #7b24eb;
 }
 
+/* Sidebar styling section start */
+
 .sidebar {
 	width: 260px;
 	min-height: 100vh;
@@ -45,3 +47,5 @@ body {
 	align-items: center;
 	gap: 30px;
 }
+
+/* Sidebar styling section end */
