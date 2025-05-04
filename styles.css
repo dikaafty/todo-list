@@ -52,4 +52,11 @@ body {
 	margin-left: 28px;
 }
 
+.userName {
+	color: #eaeaea;
+	font-family: "DM Sans";
+	font-weight: 700;
+	font-size: 16px;
+}
+
 /* Sidebar styling section end */
