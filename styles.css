@@ -75,4 +75,9 @@ body {
 	gap: 16px;
 }
 
+.nav {
+	display: flex;
+	gap: 12px;
+}
+
 /* Sidebar styling section end */
