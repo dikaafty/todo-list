@@ -76,6 +76,7 @@ body {
 }
 
 .nav {
+	width: fit-content;
 	cursor: pointer;
 	display: flex;
 	gap: 14px;
