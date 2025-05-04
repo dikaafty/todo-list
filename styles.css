@@ -79,6 +79,11 @@ body {
 	cursor: pointer;
 	display: flex;
 	gap: 14px;
+	transition: all 200ms ease-in-out;
+}
+
+.nav:hover {
+	color: #ae78f5;
 }
 
 .nav i {
