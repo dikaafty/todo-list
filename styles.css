@@ -55,6 +55,10 @@ body {
 	transition-delay: 400ms;
 }
 
+.sidebar:not(:hover) {
+	transition-delay: 400ms;
+}
+
 .userInfo {
 	margin-left: 42px;
 }
