@@ -80,4 +80,8 @@ body {
 	gap: 12px;
 }
 
+.nav i {
+	font-size: 18px;
+}
+
 /* Sidebar styling section end */
