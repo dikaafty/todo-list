@@ -160,7 +160,6 @@ body {
 }
 
 .todoList {
-	flex: 1;
 	list-style-type: none;
 	display: flex;
 	flex-direction: column;
