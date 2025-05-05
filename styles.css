@@ -132,4 +132,13 @@ body {
 	gap: 20px;
 }
 
+.greeting {
+	color: #f2e9ff;
+	font-family: "Poppins";
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 140%;
+	letter-spacing: 0.2px;
+}
+
 /* Main styling section end */
