@@ -232,6 +232,12 @@ body {
 	opacity: 1;
 }
 
+.left input:checked + .todoText {
+	color: #c9afff;
+	text-decoration: line-through;
+	text-decoration-thickness: 2px;
+}
+
 .todoText {
 	color: #ffffff;
 	font-family: "DM Sans";
