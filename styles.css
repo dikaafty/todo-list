@@ -154,7 +154,7 @@ body {
 }
 
 .todoList {
-	height: 350px;
+	flex: 1;
 	overflow-y: scroll;
 	list-style-type: none;
 	display: flex;
