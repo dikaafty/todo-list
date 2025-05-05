@@ -257,4 +257,9 @@ li i {
 	font-size: 16px;
 }
 
+.addTaskBtn:hover {
+	border: 1px solid #7b24eb;
+	box-shadow: 0 0 10px #7b24eb;
+}
+
 /* Main styling section end */
