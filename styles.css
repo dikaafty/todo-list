@@ -167,4 +167,9 @@ body {
 	align-items: center;
 }
 
+.left {
+	display: flex;
+	gap: 15px;
+}
+
 /* Main styling section end */
