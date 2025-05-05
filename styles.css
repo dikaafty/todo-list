@@ -135,6 +135,11 @@ body {
 	gap: 20px;
 }
 
+.greetingContainer {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 .greeting {
 	color: #f2e9ff;
 	font-family: "Poppins";
