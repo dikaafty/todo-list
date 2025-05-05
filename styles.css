@@ -93,6 +93,14 @@ body {
 	transition: all 200ms ease-in-out;
 }
 
+.nav.active {
+	color: #7b24eb;
+}
+
+.nav.active:hover {
+	color: #7b24eb;
+}
+
 .nav:hover {
 	color: #ae78f5;
 }
