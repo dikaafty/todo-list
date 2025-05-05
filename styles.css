@@ -168,6 +168,11 @@ body {
 	align-items: center;
 }
 
+.todoList li:hover:has(input:not(:checked)) {
+	background-color: rgba(88, 88, 88, 0.5);
+	box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
 .left {
 	display: flex;
 	align-items: center;
