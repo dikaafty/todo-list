@@ -173,6 +173,11 @@ body {
 	box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
 }
 
+.todoList li:hover:has(input:checked) {
+	outline: 1px solid #c9afff;
+	transition: outline 100ms ease-in-out;
+}
+
 .left {
 	display: flex;
 	align-items: center;
