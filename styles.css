@@ -154,4 +154,17 @@ body {
 	list-style-type: none;
 }
 
+.todoList li {
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	border-radius: 10px;
+	padding: 0 25px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 /* Main styling section end */
