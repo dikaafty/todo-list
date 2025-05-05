@@ -162,7 +162,7 @@ body {
 	flex: 1;
 	overflow-y: scroll;
 	list-style-type: none;
-	padding: 5px;
+	padding: 10px 20px;
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
