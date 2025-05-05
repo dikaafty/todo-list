@@ -150,4 +150,9 @@ body {
 	letter-spacing: 0.2px;
 }
 
+.todoList {
+	flex: 1;
+	list-style-type: none;
+}
+
 /* Main styling section end */
