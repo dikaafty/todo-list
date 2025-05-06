@@ -325,7 +325,9 @@ li i {
 
 /* All tasks section styling start */
 
-
+.allTasksSection {
+	display: none;
+}
 
 /* All tasks section styling end */
 
