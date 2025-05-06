@@ -354,6 +354,22 @@ li i {
 	height: 55px;
 }
 
+.deleteAllTasksBtn {
+	width: 60px;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	border: 1px solid #c9afff;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+.deleteAllTasksBtn:hover {
+	border: 1px solid #7b24eb;
+	box-shadow: 0 0 10px #7b24eb;
+}
+
 /* Completed tasks section styling end */
 
 /* Main styling section end */
