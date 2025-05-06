@@ -30,7 +30,7 @@ body {
 	outline: 1px solid #7b24eb;
 }
 
-/* Shared class styling section start */
+/* Shared selector styling section start */
 
 .todoSection {
 	height: 100%;
@@ -195,7 +195,7 @@ li i {
 	font-size: 20px;
 }
 
-/* Shared class styling section end */
+/* Shared selector styling section end */
 
 /* Sidebar styling section start */
 
