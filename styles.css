@@ -184,10 +184,6 @@ body {
 
 /* Today section styling start */
 
-.todaySection {
-	display: none; /* Temporary style */
-}
-
 .greetingContainer {
 	margin-bottom: 10px;
 	text-align: center;
