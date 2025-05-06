@@ -4,6 +4,7 @@
 	--primary-background-color: #00000080;
 	--secondary-background-color: #1d1d1d;
 	--primary-light-text-color: #ffffff;
+	--secondary-light-text-color: #f2e9ff;
 }
 
 * {
@@ -239,7 +240,7 @@ li i {
 }
 
 .userName {
-	color: #f2e9ff;
+	color: var(--secondary-light-text-color);
 	font-family: "DM Sans";
 	font-weight: 700;
 	font-size: 16px;
@@ -308,7 +309,7 @@ li i {
 }
 
 .greeting {
-	color: #f2e9ff;
+	color: var(--secondary-light-text-color);
 	font-family: "Poppins";
 	font-weight: 700;
 	font-size: 34px;
