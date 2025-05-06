@@ -313,6 +313,12 @@ li i {
 	gap: 10px;
 }
 
+.allTasksTextContainer i {
+	font-size: 24px;
+	border-left: 2px solid #ae78f5;
+	padding-left: 10px;
+}
+
 /* All tasks section styling end */
 
 /* Main styling section end */
