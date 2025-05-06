@@ -333,6 +333,10 @@ li i {
 
 /* Important section styling start */
 
+.importantSection .sectionInfo i {
+	font-size: 22px;
+}
+
 /* Important section styling end */
 
 /* Main styling section end */
