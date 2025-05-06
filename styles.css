@@ -1,5 +1,6 @@
 :root {
 	--primary-color: #7b24eb;
+	--secondary-color: #ae78f5;
 }
 
 * {
@@ -65,7 +66,7 @@ body {
 }
 
 .todoList::-webkit-scrollbar-thumb {
-	background: #ae78f5;
+	background: var(--secondary-color);
 	border-radius: 5px;
 }
 
@@ -189,7 +190,7 @@ li i {
 
 .sectionInfo i {
 	font-size: 24px;
-	border-left: 2px solid #ae78f5;
+	border-left: 2px solid var(--secondary-color);
 	padding-left: 10px;
 }
 
@@ -274,7 +275,7 @@ li i {
 }
 
 .nav:hover {
-	color: #ae78f5;
+	color: var(--secondary-color);
 }
 
 .nav i {
