@@ -333,6 +333,10 @@ li i {
 
 /* Important section styling start */
 
+.importantSection {
+	display: none;
+}
+
 .importantSection .sectionInfo i {
 	font-size: 22px;
 }
