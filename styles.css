@@ -1,3 +1,7 @@
+:root {
+	--primary-color: #7b24eb;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -27,7 +31,7 @@ body {
 }
 
 .avatar:hover {
-	outline: 1px solid #7b24eb;
+	outline: 1px solid var(--primary-color);
 }
 
 /* Shared selector styling section start */
@@ -167,8 +171,8 @@ li i {
 }
 
 .addTaskBtn:hover {
-	border: 1px solid #7b24eb;
-	box-shadow: 0 0 10px #7b24eb;
+	border: 1px solid var(--primary-color);
+	box-shadow: 0 0 10px var(--primary-color);
 }
 
 .sectionInfo {
@@ -262,11 +266,11 @@ li i {
 }
 
 .nav.active {
-	color: #7b24eb;
+	color: var(--primary-color);
 }
 
 .nav.active:hover {
-	color: #7b24eb;
+	color: var(--primary-color);
 }
 
 .nav:hover {
@@ -366,8 +370,8 @@ li i {
 }
 
 .deleteAllTasksBtn:hover {
-	border: 1px solid #7b24eb;
-	box-shadow: 0 0 10px #7b24eb;
+	border: 1px solid var(--primary-color);
+	box-shadow: 0 0 10px var(--primary-color);
 }
 
 /* Completed tasks section styling end */
