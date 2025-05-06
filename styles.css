@@ -1,6 +1,7 @@
 :root {
 	--primary-color: #7b24eb;
 	--secondary-color: #ae78f5;
+	--tertiary-color: #c9afff;
 	--primary-background-color: #00000080;
 	--secondary-background-color: #1d1d1d;
 	--primary-light-text-color: #ffffff;
@@ -96,7 +97,7 @@ body {
 }
 
 .todoList li:hover:has(input:checked) {
-	outline: 1px solid #c9afff;
+	outline: 1px solid var(--tertiary-color);
 	transition: outline 100ms ease-in-out;
 }
 
@@ -112,7 +113,7 @@ body {
 	-webkit-appearance: none;
 	width: 20px;
 	height: 20px;
-	border: 1px solid #c9afff;
+	border: 1px solid var(--tertiary-color);
 	border-radius: 10px;
 	cursor: pointer;
 	position: relative;
@@ -122,7 +123,7 @@ body {
 	content: "✔";
 	width: 0%;
 	height: 0%;
-	background-color: #c9afff;
+	background-color: var(--tertiary-color);
 	color: var(--primary-light-text-color);
 	font-size: 0;
 	text-align: center;
@@ -143,7 +144,7 @@ body {
 }
 
 .left input:checked + .todoText {
-	color: #c9afff;
+	color: var(--tertiary-color);
 	text-decoration: line-through;
 	text-decoration-thickness: 2px;
 }
@@ -156,7 +157,7 @@ body {
 }
 
 li i {
-	color: #c9afff;
+	color: var(--tertiary-color);
 	font-size: 22px;
 	margin-top: 2px;
 }
@@ -166,7 +167,7 @@ li i {
 	height: 50px;
 	background-color: var(--primary-background-color);
 	color: var(--primary-light-text-color);
-	border: 1px solid #c9afff;
+	border: 1px solid var(--tertiary-color);
 	border-radius: 50px;
 	cursor: pointer;
 	font-family: "DM Sans";
@@ -184,7 +185,7 @@ li i {
 	width: 200px;
 	height: 45px;
 	background-color: var(--secondary-background-color);
-	color: #c9afff;
+	color: var(--tertiary-color);
 	border-radius: 10px;
 	display: flex;
 	justify-content: center;
@@ -247,7 +248,7 @@ li i {
 }
 
 .userProfession {
-	color: #c9afff;
+	color: var(--tertiary-color);
 	font-family: "DM Sans";
 	font-weight: 400;
 	font-size: 14px;
@@ -255,7 +256,7 @@ li i {
 
 .sidebarNav {
 	width: 100%;
-	color: #c9afff;
+	color: var(--tertiary-color);
 	padding: 0 30px;
 	display: flex;
 	flex-direction: column;
@@ -318,7 +319,7 @@ li i {
 }
 
 .ask {
-	color: #c9afff;
+	color: var(--tertiary-color);
 	font-family: "Poppins";
 	font-weight: 700;
 	font-size: 34px;
@@ -368,7 +369,7 @@ li i {
 	height: 60px;
 	background-color: var(--primary-background-color);
 	color: var(--primary-light-text-color);
-	border: 1px solid #c9afff;
+	border: 1px solid var(--tertiary-color);
 	border-radius: 10px;
 	cursor: pointer;
 	font-size: 24px;
