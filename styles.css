@@ -42,6 +42,116 @@ body {
 	gap: 20px;
 }
 
+.todoList {
+	flex: 1;
+	overflow-y: scroll;
+	list-style-type: none;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.todoList::-webkit-scrollbar {
+	width: 5px;
+}
+
+.todoList::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.todoList::-webkit-scrollbar-thumb {
+	background: #ae78f5;
+	border-radius: 5px;
+}
+
+.todoList li {
+	flex: 0 0 auto;
+	width: 700px;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	border-radius: 10px;
+	padding: 0 25px;
+	cursor: pointer;
+	transition: all 200ms ease-in-out;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.todoList li:hover:has(input:not(:checked)) {
+	background-color: rgba(88, 88, 88, 0.5);
+	box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.todoList li:hover:has(input:checked) {
+	outline: 1px solid #c9afff;
+	transition: outline 100ms ease-in-out;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.left input {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #c9afff;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+}
+
+.left input::after {
+	content: "✔";
+	width: 0%;
+	height: 0%;
+	background-color: #c9afff;
+	color: #ffffff;
+	font-size: 0;
+	text-align: center;
+	border-radius: 10px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	transition: all 500ms ease-in-out;
+}
+
+.left input:checked::after {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	opacity: 1;
+}
+
+.left input:checked + .todoText {
+	color: #c9afff;
+	text-decoration: line-through;
+	text-decoration-thickness: 2px;
+}
+
+.todoText {
+	color: #ffffff;
+	font-family: "DM Sans";
+	font-weight: 500;
+	font-size: 18px;
+}
+
+li i {
+	color: #c9afff;
+	font-size: 22px;
+	margin-top: 2px;
+}
+
 .addTaskBtn {
 	width: 200px;
 	height: 50px;
@@ -205,116 +315,6 @@ body {
 	font-size: 34px;
 	line-height: 110%;
 	letter-spacing: 0.2px;
-}
-
-.todoList {
-	flex: 1;
-	overflow-y: scroll;
-	list-style-type: none;
-	padding: 10px 20px;
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
-
-.todoList::-webkit-scrollbar {
-	width: 5px;
-}
-
-.todoList::-webkit-scrollbar-track {
-	background: transparent;
-}
-
-.todoList::-webkit-scrollbar-thumb {
-	background: #ae78f5;
-	border-radius: 5px;
-}
-
-.todoList li {
-	flex: 0 0 auto;
-	width: 700px;
-	height: 70px;
-	background-color: rgba(0, 0, 0, 0.5);
-	backdrop-filter: blur(8px);
-	-webkit-backdrop-filter: blur(8px);
-	border-radius: 10px;
-	padding: 0 25px;
-	cursor: pointer;
-	transition: all 200ms ease-in-out;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-.todoList li:hover:has(input:not(:checked)) {
-	background-color: rgba(88, 88, 88, 0.5);
-	box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
-}
-
-.todoList li:hover:has(input:checked) {
-	outline: 1px solid #c9afff;
-	transition: outline 100ms ease-in-out;
-}
-
-.left {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-}
-
-.left input {
-	appearance: none;
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	width: 20px;
-	height: 20px;
-	border: 1px solid #c9afff;
-	border-radius: 10px;
-	cursor: pointer;
-	position: relative;
-}
-
-.left input::after {
-	content: "✔";
-	width: 0%;
-	height: 0%;
-	background-color: #c9afff;
-	color: #ffffff;
-	font-size: 0;
-	text-align: center;
-	border-radius: 10px;
-	opacity: 0;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
-	transition: all 500ms ease-in-out;
-}
-
-.left input:checked::after {
-	width: 100%;
-	height: 100%;
-	font-size: 14px;
-	opacity: 1;
-}
-
-.left input:checked + .todoText {
-	color: #c9afff;
-	text-decoration: line-through;
-	text-decoration-thickness: 2px;
-}
-
-.todoText {
-	color: #ffffff;
-	font-family: "DM Sans";
-	font-weight: 500;
-	font-size: 18px;
-}
-
-li i {
-	color: #c9afff;
-	font-size: 22px;
-	margin-top: 2px;
 }
 
 /* Today section styling end */
