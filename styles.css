@@ -1,6 +1,7 @@
 :root {
 	--primary-color: #7b24eb;
 	--secondary-color: #ae78f5;
+	--primary-background-color: #00000080;
 }
 
 * {
@@ -74,7 +75,7 @@ body {
 	flex: 0 0 auto;
 	width: 700px;
 	height: 70px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--primary-background-color);
 	backdrop-filter: blur(8px);
 	-webkit-backdrop-filter: blur(8px);
 	border-radius: 10px;
@@ -88,7 +89,7 @@ body {
 
 .todoList li:hover:has(input:not(:checked)) {
 	background-color: rgba(88, 88, 88, 0.5);
-	box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 1000px var(--primary-background-color);
 }
 
 .todoList li:hover:has(input:checked) {
@@ -160,7 +161,7 @@ li i {
 .addTaskBtn {
 	width: 200px;
 	height: 50px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--primary-background-color);
 	color: #ffffff;
 	border: 1px solid #c9afff;
 	border-radius: 50px;
@@ -362,7 +363,7 @@ li i {
 .deleteAllTasksBtn {
 	width: 60px;
 	height: 60px;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: var(--primary-background-color);
 	color: #ffffff;
 	border: 1px solid #c9afff;
 	border-radius: 10px;
