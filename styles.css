@@ -301,7 +301,7 @@ li i {
 
 /* All tasks section styling start */
 
-.allTasksTextContainer {
+.sectionInfo {
 	width: 200px;
 	height: 45px;
 	background-color: #1d1d1d;
@@ -313,13 +313,13 @@ li i {
 	gap: 10px;
 }
 
-.allTasksTextContainer i {
+.sectionInfo i {
 	font-size: 24px;
 	border-left: 2px solid #ae78f5;
 	padding-left: 10px;
 }
 
-.allTasksTextContainer p {
+.sectionInfo p {
 	font-family: "Poppins";
 	font-weight: 600;
 	font-size: 20px;
