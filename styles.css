@@ -319,6 +319,12 @@ li i {
 	padding-left: 10px;
 }
 
+.allTasksTextContainer p {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 20px;
+}
+
 /* All tasks section styling end */
 
 /* Main styling section end */
