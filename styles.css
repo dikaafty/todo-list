@@ -301,7 +301,17 @@ li i {
 
 /* All tasks section styling start */
 
-
+.allTasksTextContainer {
+	width: 200px;
+	height: 40px;
+	background-color: #1d1d1d;
+	color: #c9afff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
 
 /* All tasks section styling end */
 
