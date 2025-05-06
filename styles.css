@@ -3,6 +3,7 @@
 	--secondary-color: #ae78f5;
 	--primary-background-color: #00000080;
 	--secondary-background-color: #1d1d1d;
+	--primary-light-text-color: #ffffff;
 }
 
 * {
@@ -121,7 +122,7 @@ body {
 	width: 0%;
 	height: 0%;
 	background-color: #c9afff;
-	color: #ffffff;
+	color: var(--primary-light-text-color);
 	font-size: 0;
 	text-align: center;
 	border-radius: 10px;
@@ -147,7 +148,7 @@ body {
 }
 
 .todoText {
-	color: #ffffff;
+	color: var(--primary-light-text-color);
 	font-family: "DM Sans";
 	font-weight: 500;
 	font-size: 18px;
@@ -163,7 +164,7 @@ li i {
 	width: 200px;
 	height: 50px;
 	background-color: var(--primary-background-color);
-	color: #ffffff;
+	color: var(--primary-light-text-color);
 	border: 1px solid #c9afff;
 	border-radius: 50px;
 	cursor: pointer;
@@ -365,7 +366,7 @@ li i {
 	width: 60px;
 	height: 60px;
 	background-color: var(--primary-background-color);
-	color: #ffffff;
+	color: var(--primary-light-text-color);
 	border: 1px solid #c9afff;
 	border-radius: 10px;
 	cursor: pointer;
