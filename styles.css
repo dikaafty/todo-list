@@ -349,6 +349,11 @@ li i {
 
 /* Completed tasks section styling start */
 
+.completedTasksSection .sectionInfo {
+	width: 280px;
+	height: 55px;
+}
+
 /* Completed tasks section styling end */
 
 /* Main styling section end */
