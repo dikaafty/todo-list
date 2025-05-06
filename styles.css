@@ -61,6 +61,30 @@ body {
 	box-shadow: 0 0 10px #7b24eb;
 }
 
+.sectionInfo {
+	width: 200px;
+	height: 45px;
+	background-color: #1d1d1d;
+	color: #c9afff;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.sectionInfo i {
+	font-size: 24px;
+	border-left: 2px solid #ae78f5;
+	padding-left: 10px;
+}
+
+.sectionInfo p {
+	font-family: "Poppins";
+	font-weight: 600;
+	font-size: 20px;
+}
+
 /* Shared class styling section end */
 
 /* Sidebar styling section start */
@@ -301,29 +325,7 @@ li i {
 
 /* All tasks section styling start */
 
-.sectionInfo {
-	width: 200px;
-	height: 45px;
-	background-color: #1d1d1d;
-	color: #c9afff;
-	border-radius: 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
-}
 
-.sectionInfo i {
-	font-size: 24px;
-	border-left: 2px solid #ae78f5;
-	padding-left: 10px;
-}
-
-.sectionInfo p {
-	font-family: "Poppins";
-	font-weight: 600;
-	font-size: 20px;
-}
 
 /* All tasks section styling end */
 
