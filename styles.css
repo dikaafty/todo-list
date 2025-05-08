@@ -399,6 +399,13 @@ dialog {
 	transform: translate(-50%, -50%);
 }
 
+dialog form {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
