@@ -300,6 +300,7 @@ li i {
 
 .main {
 	flex: 1;
+	position: relative;
 }
 
 /* Today section styling start */
