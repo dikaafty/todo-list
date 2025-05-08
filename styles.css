@@ -385,7 +385,19 @@ li i {
 
 /* Dialog styling section start */
 
-
+dialog {
+	width: 570px;
+	height: 550px;
+	background-color: var(--secondary-background-color);
+	color: var(--secondary-light-text-color);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 0 10px #000;
+	position: absolute;
+	top: 50%;
+	left: 46%;
+	transform: translate(-50%, -50%);
+}
 
 /* Dialog styling section end */
 
