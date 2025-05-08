@@ -423,6 +423,7 @@ dialog form {
 
 .dialogSection label,
 .dialogSection p {
+	color: var(--disabled-light-text-color);
 	font-family: "Inter";
 	font-weight: 400;
 	font-size: 14px;
