@@ -469,6 +469,12 @@ dialog form {
 	outline: 1px solid var(--tertiary-color);
 }
 
+.choosePriority input[type="radio"] {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
