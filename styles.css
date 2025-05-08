@@ -414,6 +414,12 @@ dialog form {
 	letter-spacing: 0.2px;
 }
 
+.taskContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
