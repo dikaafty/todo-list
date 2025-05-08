@@ -406,6 +406,13 @@ dialog form {
 	gap: 20px;
 }
 
+.dialogTitle {
+	font-family: "Poppins";
+	font-weight: 700;
+	font-size: 28px;
+	letter-spacing: 0.2px;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
