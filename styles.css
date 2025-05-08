@@ -441,6 +441,11 @@ dialog form {
 	letter-spacing: 0.2px;
 }
 
+.choosePriority {
+	display: flex;
+	gap: 20px;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
