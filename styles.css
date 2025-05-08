@@ -420,7 +420,8 @@ dialog form {
 	gap: 10px;
 }
 
-.dialogSection label {
+.dialogSection label,
+.dialogSection p {
 	font-family: "Inter";
 	font-weight: 400;
 	font-size: 14px;
