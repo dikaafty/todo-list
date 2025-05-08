@@ -430,6 +430,17 @@ dialog form {
 	letter-spacing: 1px;
 }
 
+.dialogSection #task {
+	background-color: transparent;
+	color: var(--secondary-light-text-color);
+	border: none;
+	outline: none;
+	font-family: "DM Sans";
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 0.2px;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
