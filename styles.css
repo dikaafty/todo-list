@@ -475,6 +475,13 @@ dialog form {
 	-webkit-appearance: none;
 }
 
+.priorityText {
+	font-family: "DM Sans";
+	font-weight: 400;
+	font-size: 13px;
+	z-index: 10;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
