@@ -494,6 +494,11 @@ dialog form {
 	font-size: 16px;
 }
 
+.dialogBtnContainer {
+	display: flex;
+	gap: 20px;
+}
+
 /* Dialog styling section end */
 
 /* Main styling section end */
