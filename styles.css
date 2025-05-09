@@ -513,8 +513,7 @@ dialog form {
 }
 
 .dialogBtnContainer button:hover {
-	border: 1px solid var(--primary-color);
-	box-shadow: 0 0 5px var(--primary-color);
+	background-color: rgba(88, 88, 88, 0.5);
 }
 
 /* Dialog styling section end */
