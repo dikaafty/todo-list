@@ -395,7 +395,7 @@ dialog {
 	border: none;
 	border-radius: 20px;
 	box-shadow: 0 0 10px #000;
-	padding: 30px 25px;
+	padding: 30px 25px 40px;
 	position: absolute;
 	top: 50%;
 	left: 46%;
