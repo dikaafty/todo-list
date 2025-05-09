@@ -207,6 +207,15 @@ li i {
 	font-size: 20px;
 }
 
+input[type="text"]:-webkit-autofill,
+input[type="text"]:-webkit-autofill:hover, 
+input[type="text"]:-webkit-autofill:focus, 
+input[type="text"]:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px var(--secondary-background-color) inset !important;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: var(--secondary-light-text-color) !important;
+}
+
 /* Shared selector styling section end */
 
 /* Sidebar styling section start */
