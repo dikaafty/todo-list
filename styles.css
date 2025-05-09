@@ -523,6 +523,14 @@ dialog form {
 
 /* Keyframes section start */
 
-
+@keyframes dialogSlideDown {
+	from {
+		top: 40%;
+		opacity: 0;
+	} to {
+		top: 50%;
+		opacity: 1;
+	}
+}
 
 /* Keyframes section end */
