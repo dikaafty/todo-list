@@ -403,6 +403,10 @@ dialog {
 	animation: dialogSlideDown 300ms ease-in;
 }
 
+dialog[open]::backdrop {
+	animation: backdropFadeIn 300ms ease-in forwards;
+}
+
 dialog form {
 	height: 100%;
 	display: flex;
