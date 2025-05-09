@@ -166,15 +166,15 @@
           
           <div class="choosePriority">
             <label for="minorPriority">
-              <input type="radio" name="priority" id="minorPriority" value="minor">
+              <input type="radio" name="priority" id="minorPriority" value="minor" required>
               <span class="priorityText">Minor</span>
             </label>
             <label for="moderatePriority">
-              <input type="radio" name="priority" id="moderatePriority" value="moderate">
+              <input type="radio" name="priority" id="moderatePriority" value="moderate" required>
               <span class="priorityText">Moderate</span>
             </label>
             <label for="importantPriority">
-              <input type="radio" name="priority" id="importantPriority" value="important">
+              <input type="radio" name="priority" id="importantPriority" value="important" required>
               <span class="priorityText">Important</span>
             </label>
           </div>
@@ -182,12 +182,12 @@
 
         <div class="dialogSection">
           <label for="datetime">DATETIME</label>
-          <input type="datetime-local" name="datetime" id="datetime">
+          <input type="datetime-local" name="datetime" id="datetime" required>
         </div>
 
         <div class="dialogSection">
           <label for="notes">NOTES</label>
-          <input type="text" name="notes" id="notes" placeholder="Insert your notes here">
+          <input type="text" name="notes" id="notes" placeholder="Insert your notes here" required>
         </div>
 
         <div class="dialogBtnContainer">
