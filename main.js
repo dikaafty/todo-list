@@ -24,6 +24,8 @@ addTaskBtn.addEventListener('click', () => {
     dialog.showModal();
 });
 
-cancelBtn.addEventListener('click', () => {
+cancelBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+
     dialog.close();
 });
