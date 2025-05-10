@@ -1,4 +1,5 @@
 // Selectors
+const todayTodoList = document.getElementById('todayTodoList');
 const addTaskBtn = document.querySelector('.addTaskBtn');
 const dialog = document.querySelector('dialog');
 const cancelBtn = document.querySelector('.cancelBtn');
