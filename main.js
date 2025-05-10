@@ -15,4 +15,6 @@ const dialog = document.querySelector('dialog');
 
 
 // Event Listeners
-
+addTaskBtn.addEventListener('click', () => {
+  
+});
