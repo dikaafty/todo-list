@@ -19,3 +19,7 @@ const cancelBtn = document.querySelector('.cancelBtn');
 addTaskBtn.addEventListener('click', () => {
     dialog.showModal();
 });
+
+cancelBtn.addEventListener('click', () => {
+    
+});
