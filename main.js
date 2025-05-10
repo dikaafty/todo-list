@@ -1,5 +1,5 @@
 // Selectors
-
+const addTaskBtn = document.querySelector('.addTaskBtn');
 
 // State
 
