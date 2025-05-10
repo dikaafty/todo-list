@@ -1,5 +1,6 @@
 // Selectors
 const addTaskBtn = document.querySelector('.addTaskBtn');
+const dialog = document.querySelector('dialog');
 
 // State
 
