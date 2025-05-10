@@ -8,7 +8,7 @@ const dialog = document.querySelector('dialog');
 const cancelBtn = document.querySelector('.cancelBtn');
 
 // State
-
+let todoList = [];
 
 // On mount
 
