@@ -21,5 +21,5 @@ addTaskBtn.addEventListener('click', () => {
 });
 
 cancelBtn.addEventListener('click', () => {
-    
+    dialog.close();
 });
