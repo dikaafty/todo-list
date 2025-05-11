@@ -59,3 +59,7 @@ cancelBtn.addEventListener('click', (e) => {
 
     dialog.close();
 });
+
+submitBtn.addEventListener('click', (e) => {
+   
+});
