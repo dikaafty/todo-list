@@ -48,6 +48,18 @@ const addTask = () => {
     }
 }
 
+const resetDialogInput = () => {
+    taskInput.value = '';
+    dateInput.value = '';
+    notesInput.value = '';
+
+    for (let i = 0; i < priorityInput.length; i++) {
+        if(priorityInput[i].checked) {
+            priorityInput[i].checked = false;
+        }
+    }
+}
+
 
 // Event Listeners
 addTaskBtn.addEventListener('click', () => {
