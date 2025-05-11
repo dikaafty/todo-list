@@ -78,4 +78,5 @@ submitBtn.addEventListener('click', (e) => {
    e.preventDefault();
 
    addTask();
+   resetDialogInput();
 });
