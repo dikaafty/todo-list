@@ -69,6 +69,8 @@ addTaskBtn.addEventListener('click', () => {
 cancelBtn.addEventListener('click', (e) => {
     e.preventDefault();
 
+    resetDialogInput();
+
     dialog.close();
 });
 
