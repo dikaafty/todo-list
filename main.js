@@ -89,7 +89,6 @@ submitBtn.addEventListener('click', (e) => {
       notesInput.value && priority
     ) {
         addTask();
+        resetDialogInput();
    }
-
-    resetDialogInput();
 });
