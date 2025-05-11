@@ -54,6 +54,45 @@ const addTask = () => {
     }
 }
 
+const displayTodayTask = () => {
+    const todayDate = new Date().toISOString().split('T')[0];
+
+    // Reset today todo list
+    todayTodoList.innerHTML = '';
+
+    todoList.forEach((todo) => {
+        if(todo.date === todayDate) {
+            const li = document.createElement('li');
+            const leftContainer = document.createElement('div');
+            const rightContainer = document.createElement('div');
+            const inputCheckbox = document.createElement('input');
+            const todoText = document.createElement('p');
+            const todoDate = document.createElement('p');
+            const removeIcon = document.createElement('i');
+
+            leftContainer.classList.add('left');
+            rightContainer.classList.add('right');
+            todoText.classList.add('todoText');
+            todoDate.classList.add('todoDate');
+            removeIcon.classList.add('bi', 'bi-x-octagon');
+
+            inputCheckbox.type = 'checkbox';
+            inputCheckbox.name = 'todoChecked';
+            inputCheckbox.id = 'todoChecked';
+
+            todoText.textContent = todo.task;
+            todoDate.textContent = todo.date;
+
+            leftContainer.append(inputCheckbox, todoText, todoDate);
+            rightContainer.append(removeIcon);
+
+            li.append(leftContainer, rightContainer);
+
+            todayTodoList.append(li);
+        }
+    });
+}
+
 const resetDialogInput = () => {
     taskInput.value = '';
     dateInput.value = '';
