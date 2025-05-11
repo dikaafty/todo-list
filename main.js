@@ -88,9 +88,8 @@ submitBtn.addEventListener('click', (e) => {
    if(taskInput.value && dateInput.value &&
       notesInput.value && priority
     ) {
-        
+        addTask();
    }
 
-   addTask();
     resetDialogInput();
 });
