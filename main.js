@@ -62,4 +62,6 @@ cancelBtn.addEventListener('click', (e) => {
 
 submitBtn.addEventListener('click', (e) => {
    e.preventDefault();
+
+   addTask();
 });
