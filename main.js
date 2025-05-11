@@ -47,13 +47,7 @@ const addTask = () => {
     const task = taskInput.value;
     const date = dateInput.value;
     const notes = notesInput.value;
-    let priority = '';
-
-    for (let i = 0; i < priorityInput.length; i++) {
-        if(priorityInput[i].checked) {
-            priority = priorityInput[i].value;
-        }
-    }
+    const priority = getCheckedPriority();
 
     if(task !== '' && priority !== '' && date !== '') {
         todoList.push(new Todo(task, priority, date, notes));
