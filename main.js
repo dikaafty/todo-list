@@ -4,6 +4,7 @@ const allTodoList = document.getElementById('allTodoList');
 const importantTodoList = document.getElementById('importantTodoList');
 const completedTodoList = document.getElementById('completedTodoList'); 
 const taskInput = document.getElementById('task');
+const dateInput = document.getElementById('date');
 const priorityInput = document.getElementsByName('priority');
 const addTaskBtn = document.querySelector('.addTaskBtn');
 const dialog = document.querySelector('dialog');
