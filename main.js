@@ -31,6 +31,18 @@ class Todo {
 
 
 // Functions
+const getCheckedPriority = () => {
+    let priority = '';
+
+    for (let i = 0; i < priorityInput.length; i++) {
+        if(priorityInput[i].checked) {
+            priority = priorityInput[i].value;
+        }
+    }
+
+    return priority;
+}
+
 const addTask = () => {
     const task = taskInput.value;
     const date = dateInput.value;
