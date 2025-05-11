@@ -85,6 +85,12 @@ submitBtn.addEventListener('click', (e) => {
    
    const priority = getCheckedPriority();
 
+   if(taskInput.value && dateInput.value &&
+      notesInput.value && priority
+    ) {
+        
+   }
+
    addTask();
-   resetDialogInput();
+    resetDialogInput();
 });
