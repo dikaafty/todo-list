@@ -30,6 +30,14 @@ class Todo {
 
 
 // Functions
+const addTask = () => {
+    const task = taskInput.value;
+    const date = dateInput.value;
+    const notes = notesInput.value;
+    const priority = Array.from(priorityInput).find(input => input.checked).value;
+
+    todoList.push(new Todo(task, priority, date, notes));
+}
 
 
 // Event Listeners
