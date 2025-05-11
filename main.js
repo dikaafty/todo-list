@@ -10,6 +10,7 @@ const priorityInput = document.getElementsByName('priority');
 const addTaskBtn = document.querySelector('.addTaskBtn');
 const dialog = document.querySelector('dialog');
 const cancelBtn = document.querySelector('.cancelBtn');
+const submitBtn = document.querySelector('.submitBtn');
 
 // State
 let todoList = [];
