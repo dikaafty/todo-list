@@ -126,6 +126,7 @@ submitBtn.addEventListener('click', (e) => {
 
    if(taskInput.value && dateInput.value && priority) {
         addTask();
+        displayTodayTask();
         resetDialogInput();
 
         dialog.close();
