@@ -496,7 +496,7 @@ dialog form {
 	z-index: 10;
 }
 
-#datetime,
+#date,
 #notes {
 	background-color: transparent;
 	color: var(--secondary-light-text-color);
