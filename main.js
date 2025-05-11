@@ -18,6 +18,15 @@ let todoList = [];
 
 
 // Constructors
+class Todo {
+    constructor(task, priority, date, notes) {
+        this.task = task;
+        this.priority = priority;
+        this.date = date;
+        this.notes = notes;
+        this.completed = false;
+    }
+}
 
 
 // Functions
