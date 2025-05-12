@@ -154,6 +154,7 @@ submitBtn.addEventListener('click', (e) => {
         addTask();
         displayTodayTask();
         displayAllTasks();
+        displayImportantTask();
         resetDialogInput();
 
         dialog.close();
