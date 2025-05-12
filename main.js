@@ -111,9 +111,7 @@ const resetDialogInput = () => {
 
 
 // Event Listeners
-addTaskBtn.addEventListener('click', () => {
-    dialog.showModal();
-});
+
 
 cancelBtn.addEventListener('click', (e) => {
     e.preventDefault();
