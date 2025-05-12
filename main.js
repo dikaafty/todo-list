@@ -113,7 +113,7 @@ const resetDialogInput = () => {
 // Event Listeners
 addTaskBtns.forEach((addTaskBtn) => {
     addTaskBtn.addEventListener('click', () => {
-        
+        dialog.showModal();
     });
 });
 
