@@ -7,7 +7,7 @@ const taskInput = document.getElementById('task');
 const dateInput = document.getElementById('date');
 const notesInput = document.getElementById('notes');
 const priorityInput = document.getElementsByName('priority');
-const addTaskBtn = document.querySelector('.addTaskBtn');
+
 const dialog = document.querySelector('dialog');
 const cancelBtn = document.querySelector('.cancelBtn');
 const submitBtn = document.querySelector('.submitBtn');
