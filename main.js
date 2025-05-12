@@ -54,7 +54,7 @@ const addTask = () => {
     }
 }
 
-const createTodoListElements = (todo) => {
+const createTodoListElements = (todo, todoContainer) => {
     const li = document.createElement('li');
     const leftContainer = document.createElement('div');
     const rightContainer = document.createElement('div');
@@ -81,7 +81,7 @@ const createTodoListElements = (todo) => {
 
     li.append(leftContainer, rightContainer);
 
-    todayTodoList.append(li);
+    todoContainer.append(li);
 }
 
 const displayTodayTask = () => {
