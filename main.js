@@ -92,7 +92,7 @@ const displayTodayTask = () => {
 
     todoList.forEach((todo) => {
         if(todo.date === todayDate) {
-            createTodoListElements(todo);
+            createTodoListElements(todo, todayTodoList);
         }
     });
 }
