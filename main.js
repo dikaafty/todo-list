@@ -119,6 +119,17 @@ const displayImportantTask = () => {
     });
 }
 
+const displayCompletedTask = () => {
+    // Reset completed todo list
+    completedTodoList.innerHTML = '';
+
+    todoList.forEach((todo) => {
+        if(todo.completed) {
+            createTodoListElements(todo, completedTodoList);
+        }
+    });
+}
+
 const resetDialogInput = () => {
     taskInput.value = '';
     dateInput.value = '';
