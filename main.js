@@ -111,7 +111,11 @@ const resetDialogInput = () => {
 
 
 // Event Listeners
-
+addTaskBtns.forEach((addTaskBtn) => {
+    addTaskBtn.addEventListener('click', () => {
+        
+    });
+});
 
 cancelBtn.addEventListener('click', (e) => {
     e.preventDefault();
