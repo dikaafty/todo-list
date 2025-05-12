@@ -106,6 +106,17 @@ const displayAllTasks = () => {
     });
 }
 
+const displayImportantTask = () => {
+    // Reset important todo list
+    importantTodoList.innerHTML = '';
+
+    todoList.forEach((todo) => {
+        if(todo.priority === 'important') {
+            createTodoListElements(todo, importantTodoList);
+        }
+    });
+}
+
 const resetDialogInput = () => {
     taskInput.value = '';
     dateInput.value = '';
