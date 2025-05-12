@@ -72,6 +72,9 @@ const createTodoListElements = (todo, todoContainer) => {
     inputCheckbox.type = 'checkbox';
     inputCheckbox.name = 'todoChecked';
     inputCheckbox.id = 'todoChecked';
+    inputCheckbox.addEventListener('change' ,() => {
+        todo.completed = inputCheckbox.checked;
+    });
 
     todoText.textContent = todo.task;
     todoDate.textContent = todo.date;
