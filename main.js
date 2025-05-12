@@ -97,6 +97,15 @@ const displayTodayTask = () => {
     });
 }
 
+const displayAllTasks = () => {
+    // Reset all todo list
+    allTodoList.innerHTML = '';
+
+    todoList.forEach((todo) => {
+        createTodoListElements(todo, allTodoList);
+    });
+}
+
 const resetDialogInput = () => {
     taskInput.value = '';
     dateInput.value = '';
