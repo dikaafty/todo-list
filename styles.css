@@ -163,6 +163,15 @@ body {
 	font-size: 18px;
 }
 
+.todoDate {
+	grid-area: 2 / 2 / 3 / 3;
+	color: var(--secondary-light-text-color);
+	font-family: "DM Sans";
+	font-style: italic;
+	font-weight: 500;
+	font-size: 12px;
+}
+
 li i {
 	color: var(--tertiary-color);
 	font-size: 22px;
