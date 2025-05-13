@@ -88,6 +88,18 @@ const createTodoListElements = (todo, todoContainer) => {
     todoText.textContent = todo.task;
     todoDate.textContent = todo.date;
 
+    removeIcon.addEventListener('click', () => {
+        li.remove();
+
+        const newTodoList = todoList.filter(item => item !== todo);
+        todoList = newTodoList;
+
+        displayTodayTask();
+        displayAllTasks();
+        displayImportantTask();
+        displayCompletedTask();
+    });
+
     leftContainer.append(inputCheckbox, todoText, todoDate);
     rightContainer.append(removeIcon);
 
