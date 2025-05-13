@@ -156,6 +156,7 @@ body {
 }
 
 .todoText {
+	grid-area: 1 / 2 / 2 / 3;
 	color: var(--primary-light-text-color);
 	font-family: "DM Sans";
 	font-weight: 500;
