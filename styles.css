@@ -104,9 +104,12 @@ body {
 }
 
 .left {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-template-rows: repeat(2, auto);
 	align-items: center;
-	gap: 15px;
+	column-gap: 18px;
+	row-gap: 2px;
 }
 
 .left input {
