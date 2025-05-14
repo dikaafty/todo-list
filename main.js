@@ -253,6 +253,11 @@ const highlightChosenSidebarNav = (el) => {
 
 
 // Event Listeners
+sidebarNavs.forEach((nav) => {
+    nav.addEventListener('click', function() {
+        
+    });
+});
 
 addTaskBtns.forEach((addTaskBtn) => {
     addTaskBtn.addEventListener('click', () => {
