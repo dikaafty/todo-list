@@ -68,6 +68,7 @@ const createTodoListElements = (todo, todoContainer) => {
     const inputCheckbox = document.createElement('input');
     const todoText = document.createElement('p');
     const todoDate = document.createElement('p');
+    const editIcon = document.createElement('i');
     const removeIcon = document.createElement('i');
 
     leftContainer.classList.add('left');
