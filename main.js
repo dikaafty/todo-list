@@ -60,7 +60,7 @@ const addTask = () => {
     const priority = getCheckedPriority();
 
     if(task !== '' && priority !== '' && date !== '') {
-        todoList.push(new Todo(task, priority, date, notes));
+        todoList.unshift(new Todo(task, priority, date, notes));
     }
 }
 
