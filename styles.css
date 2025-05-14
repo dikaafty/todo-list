@@ -379,21 +379,21 @@ input[type="text"]:-webkit-autofill:active{
 
 /* All tasks section styling end */
 
-/* Important section styling start */
+/* Important tasks section styling start */
 
-.importantSection {
+.importantTasksSection {
 	display: none;
 }
 
-.importantSection .sectionInfo i {
+.importantTasksSection .sectionInfo i {
 	font-size: 22px;
 }
 
-.importantSection .sectionInfo p {
+.importantTasksSection .sectionInfo p {
 	font-size: 18px;
 }
 
-/* Important section styling end */
+/* Important tasks section styling end */
 
 /* Completed tasks section styling start */
 
