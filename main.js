@@ -104,6 +104,8 @@ const createTodoListElements = (todo, todoContainer) => {
         dialog.showModal();
         isEditing = true;
 
+        toggleSubmitBtnTextContent();
+
         taskInput.value = todo.task;
         dateInput.value = todo.date;
         notesInput.value = todo.notes;
