@@ -23,6 +23,7 @@ let todoList = [
 ];
 
 let isEditing = false;
+let currentTodo = null;
 
 // On mount
 
@@ -102,6 +103,7 @@ const createTodoListElements = (todo, todoContainer) => {
     editIcon.addEventListener('click', () => {
         dialog.showModal();
         isEditing = true;
+        currentTodo = todo;
 
         toggleSubmitBtnTextContent();
 
@@ -116,9 +118,37 @@ const createTodoListElements = (todo, todoContainer) => {
                 priorityInput[i].checked = false;
             }
         }
+    });
 
-        const newTodoList = todoList.filter(item => item !== todo);
-        todoList = newTodoList;
+    submitBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        const task = taskInput.value;
+        const date = dateInput.value;
+        const notes = notesInput.value;
+        const priority = getCheckedPriority();
+
+        if (task && date && priority) {
+            if (isEditing && currentTodo) {
+                currentTodo.task = task;
+                currentTodo.date = date;
+                currentTodo.notes = notes;
+                currentTodo.priority = priority;
+            } else {
+                addTask();
+            }
+
+            displayTodayTask();
+            displayAllTasks();
+            displayImportantTask();
+            displayCompletedTask();
+
+            resetDialogInput();
+            dialog.close();
+            isEditing = false;
+            currentTodo = null;
+            toggleSubmitBtnTextContent();
+        }
     });
 
     removeIcon.addEventListener('click', () => {
@@ -221,28 +251,9 @@ cancelBtn.addEventListener('click', (e) => {
     e.preventDefault();
 
     resetDialogInput();
-
     isEditing = false;
+    currentTodo = null;
     toggleSubmitBtnTextContent();
 
     dialog.close();
-});
-
-submitBtn.addEventListener('click', (e) => {
-   e.preventDefault();
-   
-   const priority = getCheckedPriority();
-
-   if(taskInput.value && dateInput.value && priority) {
-        addTask();
-        displayTodayTask();
-        displayAllTasks();
-        displayImportantTask();
-        resetDialogInput();
-
-        isEditing = false;
-        toggleSubmitBtnTextContent();
-
-        dialog.close();
-   }
 });
