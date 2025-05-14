@@ -251,17 +251,20 @@ const highlightChosenSidebarNav = (el) => {
     });
 }
 
+const toggleTodoSection = (el) => {
+    const targetClass = `.${el.dataset.title}Section`;
+
+    todoSections.forEach(section => section.style.display = 'none');
+
+    document.querySelector(targetClass).style.display = 'flex';
+}
+
 
 // Event Listeners
 sidebarNavs.forEach((nav) => {
     nav.addEventListener('click', function() {
         highlightChosenSidebarNav(this);
-
-        const targetClass = `.${nav.dataset.title}Section`;
-
-        todoSections.forEach(section => section.style.display = 'none');
-
-        document.querySelector(targetClass).style.display = 'flex';
+        toggleTodoSection(this);
     });
 });
 
