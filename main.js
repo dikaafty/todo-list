@@ -100,6 +100,26 @@ const createTodoListElements = (todo, todoContainer) => {
     todoText.textContent = todo.task;
     todoDate.textContent = todo.date;
 
+    editIcon.addEventListener('click', () => {
+        dialog.showModal();
+        isEditing = true;
+
+        taskInput.value = todo.task;
+        dateInput.value = todo.date;
+        notesInput.value = todo.notes;
+
+        for (let i = 0; i < priorityInput.length; i++) {
+            if(priorityInput[i].value === todo.priority) {
+                priorityInput[i].checked = true;
+            } else {
+                priorityInput[i].checked = false;
+            }
+        }
+
+        const newTodoList = todoList.filter(item => item !== todo);
+        todoList = newTodoList;
+    });
+
     removeIcon.addEventListener('click', () => {
         li.remove();
 
@@ -197,6 +217,8 @@ cancelBtn.addEventListener('click', (e) => {
 
     resetDialogInput();
 
+    isEditing = false;
+
     dialog.close();
 });
 
@@ -211,6 +233,8 @@ submitBtn.addEventListener('click', (e) => {
         displayAllTasks();
         displayImportantTask();
         resetDialogInput();
+
+        isEditing = false;
 
         dialog.close();
    }
