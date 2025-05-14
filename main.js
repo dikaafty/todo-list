@@ -256,6 +256,12 @@ const highlightChosenSidebarNav = (el) => {
 sidebarNavs.forEach((nav) => {
     nav.addEventListener('click', function() {
         highlightChosenSidebarNav(this);
+
+        const targetClass = `.${nav.dataset.title}Section`;
+
+        todoSections.forEach(section => section.style.display = 'none');
+
+        document.querySelector(targetClass).style.display = 'flex';
     });
 });
 
