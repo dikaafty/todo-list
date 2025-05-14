@@ -222,6 +222,7 @@ cancelBtn.addEventListener('click', (e) => {
     resetDialogInput();
 
     isEditing = false;
+    toggleSubmitBtnTextContent();
 
     dialog.close();
 });
