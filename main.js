@@ -13,7 +13,14 @@ const cancelBtn = document.querySelector('.cancelBtn');
 const submitBtn = document.querySelector('.submitBtn');
 
 // State
-let todoList = [];
+let todoList = [
+    {
+        task: 'Loving HER',
+        priority: 'important',
+        date: '2025-05-14',
+        notes: "I'll always loving you"
+    }
+];
 
 // On mount
 
@@ -121,6 +128,8 @@ const displayTodayTask = () => {
     });
 }
 
+displayTodayTask();
+
 const displayAllTasks = () => {
     // Reset all todo list
     allTodoList.innerHTML = '';
@@ -129,6 +138,8 @@ const displayAllTasks = () => {
         createTodoListElements(todo, allTodoList);
     });
 }
+
+displayAllTasks();
 
 const displayImportantTask = () => {
     // Reset important todo list
@@ -141,6 +152,8 @@ const displayImportantTask = () => {
     });
 }
 
+displayImportantTask();
+
 const displayCompletedTask = () => {
     // Reset completed todo list
     completedTodoList.innerHTML = '';
@@ -151,6 +164,8 @@ const displayCompletedTask = () => {
         }
     });
 }
+
+displayCompletedTask();
 
 const resetDialogInput = () => {
     taskInput.value = '';
