@@ -23,6 +23,8 @@ let todoList = [
     }
 ];
 
+let isEditing = false;
+
 // On mount
 
 
