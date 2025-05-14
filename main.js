@@ -11,6 +11,7 @@ const addTaskBtns = document.querySelectorAll('.addTaskBtn');
 const dialog = document.querySelector('dialog');
 const cancelBtn = document.querySelector('.cancelBtn');
 const submitBtn = document.querySelector('.submitBtn');
+const saveBtn = document.querySelector('.saveBtn');
 
 // State
 let todoList = [
