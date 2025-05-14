@@ -8,6 +8,7 @@ const dateInput = document.getElementById('date');
 const notesInput = document.getElementById('notes');
 const priorityInput = document.getElementsByName('priority');
 const addTaskBtns = document.querySelectorAll('.addTaskBtn');
+const sidebarNavs = document.querySelectorAll('.nav');
 const dialog = document.querySelector('dialog');
 const cancelBtn = document.querySelector('.cancelBtn');
 const submitBtn = document.querySelector('.submitBtn');
