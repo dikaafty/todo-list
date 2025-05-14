@@ -110,7 +110,7 @@ const createTodoListElements = (todo, todoContainer) => {
     });
 
     leftContainer.append(inputCheckbox, todoText, todoDate);
-    rightContainer.append(removeIcon);
+    rightContainer.append(editIcon ,removeIcon);
 
     li.append(leftContainer, rightContainer);
 
