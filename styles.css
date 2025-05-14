@@ -173,6 +173,11 @@ body {
 	font-size: 12px;
 }
 
+.right {
+	display: flex;
+	gap: 15px;
+}
+
 li i {
 	color: var(--tertiary-color);
 	font-size: 22px;
