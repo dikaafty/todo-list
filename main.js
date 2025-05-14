@@ -75,6 +75,7 @@ const createTodoListElements = (todo, todoContainer) => {
     rightContainer.classList.add('right');
     todoText.classList.add('todoText');
     todoDate.classList.add('todoDate');
+    editIcon.classList.add('bi', 'bi-pen');
     removeIcon.classList.add('bi', 'bi-x-octagon');
 
     inputCheckbox.type = 'checkbox';
