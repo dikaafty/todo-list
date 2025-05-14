@@ -204,6 +204,10 @@ const resetDialogInput = () => {
     }
 }
 
+const toggleSubmitBtnTextContent = () => {
+    isEditing ? submitBtn.textContent = 'Save' : submitBtn.textContent = 'Submit';
+}
+
 
 // Event Listeners
 addTaskBtns.forEach((addTaskBtn) => {
