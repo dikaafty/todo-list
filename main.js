@@ -240,8 +240,19 @@ const toggleSubmitBtnTextContent = () => {
     isEditing ? submitBtn.textContent = 'Save' : submitBtn.textContent = 'Submit';
 }
 
+const highlightChosenSidebarNav = (el) => {
+    sidebarNavs.forEach((nav) => {
+        if(nav === el) {
+            nav.classList.add('active');
+        } else {
+            nav.classList.remove('active');
+        }
+    });
+}
+
 
 // Event Listeners
+
 addTaskBtns.forEach((addTaskBtn) => {
     addTaskBtn.addEventListener('click', () => {
         dialog.showModal();
