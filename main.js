@@ -48,8 +48,8 @@ class Todo {
 
 
 // Functions
-const saveTodoList = (task) => {
-    localStorage.setItem('todoList', JSON.stringify(task));
+const saveTodoList = (todoList) => {
+    localStorage.setItem('todoList', JSON.stringify(todoList));
 }
 
 const getCheckedPriority = () => {
