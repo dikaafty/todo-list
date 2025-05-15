@@ -377,6 +377,10 @@ input[type="text"]:-webkit-autofill:active{
 	display: none;
 }
 
+.allTasksSection .sectionInfo {
+	width: 180px;
+}
+
 /* All tasks section styling end */
 
 /* Important tasks section styling start */
