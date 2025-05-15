@@ -15,7 +15,14 @@ const cancelBtn = document.querySelector('.cancelBtn');
 const submitBtn = document.querySelector('.submitBtn');
 
 // State
-let todoList = [];
+let todoList = [
+    {
+        task: 'Do something...',
+        priority: 'important',
+        date: '2025-05-15',
+        notes: 'You should do something...'
+    }
+];
 let isEditing = false;
 let currentTodo = null;
 
