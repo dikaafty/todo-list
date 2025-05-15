@@ -312,4 +312,6 @@ deleteAllTasksBtn.addEventListener('click', () => {
     displayAllTasks();
     displayImportantTask();
     displayCompletedTask();
+
+    saveTodoList(todoList);
 });
