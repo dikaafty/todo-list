@@ -385,14 +385,6 @@ input[type="text"]:-webkit-autofill:active{
 	display: none;
 }
 
-.importantTasksSection .sectionInfo i {
-	font-size: 22px;
-}
-
-.importantTasksSection .sectionInfo p {
-	font-size: 18px;
-}
-
 /* Important tasks section styling end */
 
 /* Completed tasks section styling start */
