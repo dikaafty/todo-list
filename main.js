@@ -209,7 +209,8 @@ const displayCompletedTask = () => {
 displayCompletedTask();
 
 const deleteAllCompletedTasks = () => {
-
+    const uncompletedTodoList = todoList.filter(todo => todo.completed === false);
+    todoList = uncompletedTodoList;
 }
 
 const resetDialogInput = () => {
