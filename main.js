@@ -20,7 +20,8 @@ let todoList = [
         task: 'Do something...',
         priority: 'important',
         date: '2025-05-15',
-        notes: 'You should do something...'
+        notes: 'You should do something...',
+        completed: false
     }
 ];
 let isEditing = false;
