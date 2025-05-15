@@ -570,7 +570,9 @@ dialog form {
 /* Media queries section start */
 
 @media only screen and (max-width: 992px) {
-	
+	.todoList li {
+		width: 400px;
+	}
 }
 
 /* Media queries section end */
