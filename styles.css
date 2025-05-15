@@ -569,7 +569,9 @@ dialog form {
 
 /* Media queries section start */
 
-
+@media only screen and (max-width: 992px) {
+	
+}
 
 /* Media queries section end */
 
