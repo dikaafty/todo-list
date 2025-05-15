@@ -207,6 +207,10 @@ const displayCompletedTask = () => {
 
 displayCompletedTask();
 
+const deleteAllCompletedTasks = () => {
+
+}
+
 const resetDialogInput = () => {
     taskInput.value = '';
     dateInput.value = '';
