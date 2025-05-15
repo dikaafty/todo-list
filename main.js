@@ -19,6 +19,9 @@ let todoList = [];
 let isEditing = false;
 let currentTodo = null;
 
+    // Get created todo list from local storage when website refreshed or closed
+    const storedTodoList = localStorage.getItem('todoList');
+
 // On mount
 
 
