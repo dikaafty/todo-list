@@ -304,3 +304,7 @@ submitBtn.addEventListener('click', (e) => {
         toggleSubmitBtnTextContent();
     }
 });
+
+deleteAllTasksBtn.addEventListener('click', () => {
+    
+});
