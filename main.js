@@ -133,38 +133,6 @@ const createTodoListElements = (todo, todoContainer) => {
         }
     });
 
-    submitBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        
-        const task = taskInput.value;
-        const date = dateInput.value;
-        const notes = notesInput.value;
-        const priority = getCheckedPriority();
-
-        if (task && date && priority) {
-            if (isEditing && currentTodo) {
-                currentTodo.task = task;
-                currentTodo.date = date;
-                currentTodo.notes = notes;
-                currentTodo.priority = priority;
-            } else {
-                addTask();
-            }
-
-            displayTodayTask();
-            displayAllTasks();
-            displayImportantTask();
-            displayCompletedTask();
-            saveTasks(todoList);
-
-            resetDialogInput();
-            dialog.close();
-            isEditing = false;
-            currentTodo = null;
-            toggleSubmitBtnTextContent();
-        }
-    });
-
     removeIcon.addEventListener('click', () => {
         li.remove();
 
@@ -296,4 +264,36 @@ cancelBtn.addEventListener('click', (e) => {
     toggleSubmitBtnTextContent();
 
     dialog.close();
+});
+
+submitBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    
+    const task = taskInput.value;
+    const date = dateInput.value;
+    const notes = notesInput.value;
+    const priority = getCheckedPriority();
+
+    if (task && date && priority) {
+        if (isEditing && currentTodo) {
+            currentTodo.task = task;
+            currentTodo.date = date;
+            currentTodo.notes = notes;
+            currentTodo.priority = priority;
+        } else {
+            addTask();
+        }
+
+        displayTodayTask();
+        displayAllTasks();
+        displayImportantTask();
+        displayCompletedTask();
+        saveTasks(todoList);
+
+        resetDialogInput();
+        dialog.close();
+        isEditing = false;
+        currentTodo = null;
+        toggleSubmitBtnTextContent();
+    }
 });
