@@ -54,6 +54,12 @@ body {
 	gap: 20px;
 }
 
+.sidebar:hover + .main .todoSection,
+.avatar:hover + .sidebar + .main .todoSection {
+	padding: 30px 0;
+	transition-delay: 400ms;
+}
+
 .todoList {
 	flex: 1;
 	overflow-y: scroll;
