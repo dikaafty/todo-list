@@ -48,6 +48,10 @@ class Todo {
 
 
 // Functions
+const saveTasks = (task) => {
+    localStorage.setItem('todoList', JSON.stringify(task));
+}
+
 const getCheckedPriority = () => {
     let priority = '';
 
@@ -68,6 +72,7 @@ const addTask = () => {
 
     if(task !== '' && priority !== '' && date !== '') {
         todoList.unshift(new Todo(task, priority, date, notes));
+        saveTasks(todoList);
     }
 }
 
@@ -102,6 +107,7 @@ const createTodoListElements = (todo, todoContainer) => {
         displayAllTasks();
         displayImportantTask();
         displayCompletedTask();
+        saveTasks(todoList);
     });
 
     todoText.textContent = todo.task;
@@ -149,6 +155,7 @@ const createTodoListElements = (todo, todoContainer) => {
             displayAllTasks();
             displayImportantTask();
             displayCompletedTask();
+            saveTasks(todoList);
 
             resetDialogInput();
             dialog.close();
@@ -168,6 +175,7 @@ const createTodoListElements = (todo, todoContainer) => {
         displayAllTasks();
         displayImportantTask();
         displayCompletedTask();
+        saveTasks(todoList);
     });
 
     leftContainer.append(inputCheckbox, todoText, todoDate);
