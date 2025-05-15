@@ -26,10 +26,10 @@ let todoList = [
 let isEditing = false;
 let currentTodo = null;
 
+// On mount
     // Get created todo list from local storage when website refreshed or closed
     const storedTodoList = localStorage.getItem('todoList');
 
-// On mount
 if(storedTodoList) {
     todoList = JSON.parse(storedTodoList);
 }
