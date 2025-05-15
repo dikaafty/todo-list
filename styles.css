@@ -393,11 +393,6 @@ input[type="text"]:-webkit-autofill:active{
 	display: none;
 }
 
-.completedTasksSection .sectionInfo {
-	width: 280px;
-	height: 55px;
-}
-
 .deleteAllTasksBtn {
 	width: 60px;
 	height: 60px;
