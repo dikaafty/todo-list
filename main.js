@@ -23,6 +23,9 @@ let currentTodo = null;
     const storedTodoList = localStorage.getItem('todoList');
 
 // On mount
+if(storedTodoList) {
+    todoList = JSON.parse(storedTodoList);
+}
 
 
 // Constructors
