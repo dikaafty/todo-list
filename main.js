@@ -306,5 +306,5 @@ submitBtn.addEventListener('click', (e) => {
 });
 
 deleteAllTasksBtn.addEventListener('click', () => {
-    
+    deleteAllCompletedTasks();
 });
