@@ -681,6 +681,10 @@ dialog form {
 		left: 20px;
 	}
 
+	.sidebar {
+		gap: 22px;
+	}
+
 	.userName {
 		font-size: 12px;
 	}
