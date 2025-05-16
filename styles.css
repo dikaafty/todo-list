@@ -572,6 +572,7 @@ dialog form {
 @media only screen and (max-width: 992px) {
 	.todoList {
 		width: 100%;
+		padding: 10px 0;
 		align-items: center;
 	}
 
