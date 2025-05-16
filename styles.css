@@ -739,6 +739,12 @@ dialog form {
 	.sectionInfo p {
 		font-size: 14px;
 	}
+
+	.addTaskBtn {
+		width: 160px;
+		height: 40px;
+		font-size: 12px;
+	}
 }
 
 /* Media queries section end */
