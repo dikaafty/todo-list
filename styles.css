@@ -793,6 +793,11 @@ dialog form {
 	.dialogTitle {
 		font-size: 24px;
 	}
+
+	.dialogSection label,
+	.dialogSection p {
+		font-size: 12px;
+	}
 }
 
 /* Media queries section end */
