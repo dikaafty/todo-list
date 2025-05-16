@@ -741,6 +741,7 @@ dialog form {
 	}
 
 	.todoList li {
+		height: 60px;
 		padding: 0 16px;
 	}
 
