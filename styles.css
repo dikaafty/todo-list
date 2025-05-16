@@ -803,6 +803,10 @@ dialog form {
 		font-size: 20px;
 	}
 
+	.choosePriority {
+		gap: 16px;
+	}
+
 	.choosePriority label {
 		width: 85px;
 		height: 35px;
