@@ -588,10 +588,10 @@ dialog form {
 	}
 
 	.sidebar {
-		width: 260px;
 		height: fit-content;
 		padding: 30px 0;
 		z-index: 10;
+		gap: 24px;
 		position: absolute;
 		top: 0;
 		left: 0;
