@@ -851,6 +851,14 @@ dialog form {
 		font-size: 8px;
 	}
 
+	.nav i {
+		font-size: 12px;
+	}
+
+	.nav p {
+		font-size: 10px;
+	}
+
 	.greeting {
 		font-size: 17px;
 	}
