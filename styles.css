@@ -914,6 +914,14 @@ dialog form {
 	.left input:checked::after {
 		font-size: 8px;
 	}
+
+	.todoText {
+		font-size: 12px;
+	}
+
+	.todoDate {
+		font-size: 6px;
+	}
 }
 
 /* Media queries section end */
