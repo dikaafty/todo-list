@@ -885,6 +885,11 @@ dialog form {
 		font-size: 13px;
 	}
 
+	.sectionInfo {
+		width: 190px;
+		height: 38px;
+	}
+
 	.sectionInfo i {
 		font-size: 16px;
 	}
