@@ -585,6 +585,15 @@ dialog form {
 		width: 40px;
 		height: 40px;
 	}
+
+	.sidebar {
+		width: 260px;
+		height: fit-content;
+		padding: 30px 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
 }
 
 /* Media queries section end */
