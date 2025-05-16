@@ -597,6 +597,10 @@ dialog form {
 		left: 0;
 	}
 
+	.userInfo {
+		margin-left: 12px;
+	}
+
 	.userName {
 		font-size: 14px;
 	}
