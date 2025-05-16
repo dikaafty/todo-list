@@ -597,6 +597,11 @@ dialog form {
 		left: 0;
 	}
 
+	.sidebar:hover,
+	.avatar:hover + .sidebar {
+		width: 230px;
+	}
+
 	.userInfo {
 		margin-left: 12px;
 	}
