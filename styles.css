@@ -682,6 +682,7 @@ dialog form {
 	}
 
 	.sidebar {
+		width: 75px;
 		gap: 22px;
 	}
 
