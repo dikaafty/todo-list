@@ -907,12 +907,12 @@ dialog form {
 	}
 
 	.left input {
-		width: 14px;
-		height: 14px;
+		width: 12px;
+		height: 12px;
 	}
 
 	.left input:checked::after {
-		font-size: 8px;
+		font-size: 6px;
 	}
 
 	.todoText {
