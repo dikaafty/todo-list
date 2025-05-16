@@ -740,6 +740,14 @@ dialog form {
 		font-size: 14px;
 	}
 
+	.todoText {
+		font-size: 14px;
+	}
+
+	.todoDate {
+		font-size: 8px;
+	}
+
 	.addTaskBtn {
 		width: 160px;
 		height: 40px;
