@@ -650,6 +650,11 @@ dialog form {
 		font-size: 28px;
 	}
 
+	.sectionInfo {
+		width: 230px;
+		height: 45px;
+	}
+
 	.sectionInfo i {
 		font-size: 20px;
 	}
