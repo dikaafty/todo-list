@@ -848,6 +848,11 @@ dialog form {
 		gap: 20px;
 	}
 
+	.sidebar:hover,
+	.avatar:hover + .sidebar {
+		width: 160px;
+	}
+
 	.userName {
 		font-size: 10px;
 	}
