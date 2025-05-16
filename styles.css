@@ -685,6 +685,11 @@ dialog form {
 		gap: 22px;
 	}
 
+	.sidebar:hover,
+	.avatar:hover + .sidebar {
+		width: 190px;
+	}
+
 	.userName {
 		font-size: 12px;
 	}
