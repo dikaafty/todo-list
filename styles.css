@@ -906,6 +906,14 @@ dialog form {
 		font-size: 12px;
 	}
 
+	.left input {
+		width: 14px;
+		height: 14px;
+	}
+
+	.left input:checked::after {
+		font-size: 8px;
+	}
 }
 
 /* Media queries section end */
