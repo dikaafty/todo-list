@@ -723,6 +723,11 @@ dialog form {
 		font-size: clamp(18px, 4.67vw, 28px);
 	}
 
+	.sectionInfo {
+		width: 210px;
+		height: 40px;
+	}
+
 	.sectionInfo i {
 		font-size: 18px;
 	}
