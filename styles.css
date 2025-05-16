@@ -596,6 +596,10 @@ dialog form {
 		top: 0;
 		left: 0;
 	}
+
+	.userName {
+		font-size: 14px;
+	}
 }
 
 /* Media queries section end */
