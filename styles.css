@@ -843,6 +843,11 @@ dialog form {
 		left: 15px;
 	}
 
+	.sidebar {
+		width: 60px;
+		gap: 20px;
+	}
+
 	.userName {
 		font-size: 10px;
 	}
