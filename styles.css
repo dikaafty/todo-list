@@ -732,6 +732,10 @@ dialog form {
 		height: 40px;
 	}
 
+	.allTasksSection .sectionInfo {
+		width: 145px;
+	}
+
 	.sectionInfo i {
 		font-size: 18px;
 	}
