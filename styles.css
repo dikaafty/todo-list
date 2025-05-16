@@ -581,7 +581,10 @@ dialog form {
 }
 
 @media only screen and (max-width: 768px) {
-	
+	.avatar {
+		width: 40px;
+		height: 40px;
+	}
 }
 
 /* Media queries section end */
