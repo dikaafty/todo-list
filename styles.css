@@ -740,6 +740,15 @@ dialog form {
 		font-size: 14px;
 	}
 
+	.left input {
+		width: 16px;
+		height: 16px;
+	}
+
+	.left input:checked::after {
+		font-size: 10px;
+	}
+
 	.todoText {
 		font-size: 14px;
 	}
