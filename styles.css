@@ -843,6 +843,14 @@ dialog form {
 		left: 15px;
 	}
 
+	.userName {
+		font-size: 10px;
+	}
+
+	.userProfession {
+		font-size: 8px;
+	}
+
 	.greeting {
 		font-size: 17px;
 	}
