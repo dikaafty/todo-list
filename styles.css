@@ -672,6 +672,13 @@ dialog form {
 		height: 45px;
 		font-size: 14px;
 	}
+
+	.deleteAllTasksBtn {
+		width: 55px;
+		height: 55px;
+		font-size: 22px;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
