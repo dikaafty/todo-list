@@ -600,6 +600,10 @@ dialog form {
 	.userName {
 		font-size: 14px;
 	}
+
+	.userProfession {
+		font-size: 12px;
+	}
 }
 
 /* Media queries section end */
