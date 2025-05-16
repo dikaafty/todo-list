@@ -853,6 +853,10 @@ dialog form {
 		width: 160px;
 	}
 
+	.userInfo {
+		margin-left: 38px;
+	}
+
 	.userName {
 		font-size: 10px;
 	}
