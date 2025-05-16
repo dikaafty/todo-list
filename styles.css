@@ -771,6 +771,10 @@ dialog form {
 		margin-top: 8px;
 	}
 
+	.bi-pen {
+		font-size: 15px;
+	}
+
 	.addTaskBtn {
 		width: 160px;
 		height: 40px;
