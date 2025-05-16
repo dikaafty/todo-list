@@ -815,6 +815,11 @@ dialog form {
 	.priorityText {
 		font-size: 11px;
 	}
+
+	#date,
+	#notes {
+		font-size: 13px;
+	}
 }
 
 /* Media queries section end */
