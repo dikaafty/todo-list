@@ -785,6 +785,10 @@ dialog form {
 		height: 40px;
 		font-size: 12px;
 	}
+
+	dialog {
+		width: 90%;
+	}
 }
 
 /* Media queries section end */
