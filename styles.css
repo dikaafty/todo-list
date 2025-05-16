@@ -675,6 +675,12 @@ dialog form {
 }
 
 @media only screen and (max-width: 600px) {
+	.avatar {
+		width: 35px;
+		height: 35px;
+		left: 20px;
+	}
+
 	.greeting {
 		font-size: clamp(20px, 5vw, 30px);
 	}
