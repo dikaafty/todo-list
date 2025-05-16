@@ -641,6 +641,14 @@ dialog form {
 		padding: 30px 50px;
 		transition-delay: 0ms;
 	}
+
+	.greeting {
+		font-size: 30px;
+	}
+
+	.ask {
+		font-size: 28px;
+	}
 }
 
 /* Media queries section end */
