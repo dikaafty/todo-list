@@ -964,6 +964,12 @@ dialog form {
 		height: 35px;
 		font-size: 10px;
 	}
+
+	.deleteAllTasksBtn {
+		width: 45px;
+		height: 45px;
+		font-size: 18px;
+	}
 }
 
 /* Media queries section end */
