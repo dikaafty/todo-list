@@ -715,6 +715,10 @@ dialog form {
 		font-size: 12px;
 	}
 
+	.todoSection {
+		gap: 8px;
+	}
+
 	.greeting {
 		font-size: clamp(20px, 5vw, 30px);
 	}
@@ -734,10 +738,6 @@ dialog form {
 
 	.sectionInfo p {
 		font-size: 14px;
-	}
-
-	.todoSection {
-		gap: 8px;
 	}
 }
 
