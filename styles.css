@@ -626,6 +626,21 @@ dialog form {
 	.nav p {
 		font-size: 14px;
 	}
+
+	.todoSection {
+		padding: 30px 50px;
+	}
+
+	.sidebar:hover + .main .todoSection,
+	.avatar:hover + .sidebar + .main .todoSection {
+		padding: 30px 50px;
+		transition-delay: 0ms;
+	}
+
+	.sidebar:not(:hover) + .main .todoSection {
+		padding: 30px 50px;
+		transition-delay: 0ms;
+	}
 }
 
 /* Media queries section end */
