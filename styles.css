@@ -722,6 +722,10 @@ dialog form {
 	.ask {
 		font-size: clamp(18px, 4.67vw, 28px);
 	}
+
+	.todoSection {
+		gap: 8px;
+	}
 }
 
 /* Media queries section end */
