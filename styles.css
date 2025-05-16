@@ -589,6 +589,7 @@ dialog form {
 
 	.sidebar {
 		height: fit-content;
+		border-bottom-right-radius: 10px;
 		padding: 30px 0;
 		z-index: 10;
 		gap: 24px;
