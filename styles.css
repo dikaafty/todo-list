@@ -933,6 +933,10 @@ dialog form {
 		font-size: 6px;
 	}
 
+	.right {
+		gap: 8px;
+	}
+
 	li i {
 		font-size: 12px;
 		margin-top: 3px;
