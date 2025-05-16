@@ -666,6 +666,12 @@ dialog form {
 	.sectionInfo p {
 		font-size: 16px;
 	}
+
+	.addTaskBtn {
+		width: 180px;
+		height: 45px;
+		font-size: 14px;
+	}
 }
 
 /* Media queries section end */
