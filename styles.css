@@ -922,6 +922,11 @@ dialog form {
 	.todoDate {
 		font-size: 6px;
 	}
+
+	li i {
+		font-size: 12px;
+		margin-top: 3px;
+	}
 }
 
 /* Media queries section end */
