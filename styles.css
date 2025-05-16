@@ -675,7 +675,13 @@ dialog form {
 }
 
 @media only screen and (max-width: 600px) {
-	
+	.greeting {
+		font-size: clamp(20px, 5vw, 30px);
+	}
+
+	.ask {
+		font-size: clamp(18px, 4.67vw, 28px);
+	}
 }
 
 /* Media queries section end */
