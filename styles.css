@@ -797,6 +797,12 @@ dialog form {
 		font-size: 12px;
 	}
 
+	.deleteAllTasksBtn {
+		width: 50px;
+		height: 50px;
+		font-size: 20px;
+	}
+
 	dialog {
 		width: 90%;
 	}
