@@ -689,6 +689,10 @@ dialog form {
 		font-size: 10px;
 	}
 
+	.nav {
+		gap: 8px;
+	}
+
 	.nav i {
 		font-size: 14px;
 	}
