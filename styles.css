@@ -766,6 +766,10 @@ dialog form {
 		font-size: 8px;
 	}
 
+	.right {
+		gap: 13px;
+	}
+
 	li i {
 		font-size: 16px;
 		margin-top: 8px;
