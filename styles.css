@@ -820,6 +820,10 @@ dialog form {
 	#notes {
 		font-size: 13px;
 	}
+	
+	.dialogBtnContainer {
+		gap: 15px;
+	}
 
 	.dialogBtnContainer button {
 		width: 130px;
