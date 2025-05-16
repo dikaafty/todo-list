@@ -945,6 +945,12 @@ dialog form {
 	.bi-pen {
 		font-size: 12px;
 	}
+
+	.addTaskBtn {
+		width: 140px;
+		height: 35px;
+		font-size: 10px;
+	}
 }
 
 /* Media queries section end */
