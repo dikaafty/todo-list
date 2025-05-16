@@ -681,6 +681,14 @@ dialog form {
 		left: 20px;
 	}
 
+	.userName {
+		font-size: 12px;
+	}
+
+	.userProfession {
+		font-size: 10px;
+	}
+
 	.greeting {
 		font-size: clamp(20px, 5vw, 30px);
 	}
