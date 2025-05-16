@@ -723,6 +723,14 @@ dialog form {
 		font-size: clamp(18px, 4.67vw, 28px);
 	}
 
+	.sectionInfo i {
+		font-size: 18px;
+	}
+
+	.sectionInfo p {
+		font-size: 14px;
+	}
+
 	.todoSection {
 		gap: 8px;
 	}
