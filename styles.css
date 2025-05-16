@@ -790,6 +790,10 @@ dialog form {
 		width: 90%;
 	}
 
+	dialog form {
+		gap: 25px;
+	}
+
 	.dialogTitle {
 		font-size: 24px;
 	}
