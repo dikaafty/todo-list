@@ -689,6 +689,14 @@ dialog form {
 		font-size: 10px;
 	}
 
+	.nav i {
+		font-size: 14px;
+	}
+
+	.nav p {
+		font-size: 12px;
+	}
+
 	.greeting {
 		font-size: clamp(20px, 5vw, 30px);
 	}
