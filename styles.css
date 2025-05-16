@@ -744,6 +744,11 @@ dialog form {
 		padding: 0 16px;
 	}
 
+	.left {
+		column-gap: 13px;
+		row-gap: 2px;
+	}
+
 	.left input {
 		width: 16px;
 		height: 16px;
