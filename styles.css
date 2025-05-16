@@ -689,6 +689,10 @@ dialog form {
 		font-size: 10px;
 	}
 
+	.sidebarNav {
+		gap: 16px;
+	}
+
 	.nav {
 		gap: 8px;
 	}
