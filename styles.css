@@ -927,6 +927,10 @@ dialog form {
 		font-size: 12px;
 		margin-top: 3px;
 	}
+
+	.bi-pen {
+		font-size: 12px;
+	}
 }
 
 /* Media queries section end */
