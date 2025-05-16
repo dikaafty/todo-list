@@ -674,6 +674,10 @@ dialog form {
 	}
 }
 
+@media only screen and (max-width: 600px) {
+	
+}
+
 /* Media queries section end */
 
 
