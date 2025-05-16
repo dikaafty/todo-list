@@ -920,6 +920,10 @@ dialog form {
 		font-size: 12px;
 	}
 
+	.todoList {
+		padding: 10px;
+	}
+
 	.todoList li {
 		height: 50px;
 		padding: 0 12px;
