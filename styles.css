@@ -590,6 +590,7 @@ dialog form {
 		width: 260px;
 		height: fit-content;
 		padding: 30px 0;
+		z-index: 10;
 		position: absolute;
 		top: 0;
 		left: 0;
