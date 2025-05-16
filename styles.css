@@ -740,6 +740,10 @@ dialog form {
 		font-size: 14px;
 	}
 
+	.todoList li {
+		padding: 0 16px;
+	}
+
 	.left input {
 		width: 16px;
 		height: 16px;
