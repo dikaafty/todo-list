@@ -802,6 +802,10 @@ dialog form {
 	.dialogSection #task {
 		font-size: 20px;
 	}
+
+	.priorityText {
+		font-size: 11px;
+	}
 }
 
 /* Media queries section end */
