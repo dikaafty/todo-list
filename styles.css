@@ -837,7 +837,14 @@ dialog form {
 }
 
 @media only screen and (max-width: 400px) {
-	
+	.greeting {
+		font-size: 17px;
+	}
+
+	.ask {
+		font-size: 13px;
+	}
+
 }
 
 /* Media queries section end */
