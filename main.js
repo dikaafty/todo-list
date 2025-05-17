@@ -320,6 +320,7 @@ submitBtn.addEventListener('click', (e) => {
         displayAllTasks();
         displayImportantTask();
         displayCompletedTask();
+        displayOverdueTask();
         saveTodoList(todoList);
 
         resetDialogInput();
