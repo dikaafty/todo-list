@@ -275,11 +275,10 @@ const toggleTodoSection = (el) => {
 }
 
 const moveCompletedTask = () => {
-    for(let i = todoList.length - 1; i >= 0; i--) {
-        if(todoList[i].completed) {
-            todoList.push(todoList.splice(i, 1)[0]);
-        }
-    }
+    const completedTasks =  todoList.filter(todo => todo.completed);
+    const uncompletedTasks = todoList.filter(todo => !todo.completed);
+
+    todoList = [...uncompletedTasks, ...completedTasks];
 }
 
 
