@@ -154,6 +154,7 @@ const createTodoListElements = (todo, todoContainer) => {
         displayAllTasks();
         displayImportantTask();
         displayCompletedTask();
+        displayOverdueTask();
         saveTodoList(todoList);
     });
 
