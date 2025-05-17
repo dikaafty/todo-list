@@ -229,6 +229,8 @@ const displayOverdueTask = () => {
     });
 }
 
+displayOverdueTask();
+
 const deleteAllCompletedTasks = () => {
     const uncompletedTodoList = todoList.filter(todo => todo.completed === false);
     todoList = uncompletedTodoList;
