@@ -14,7 +14,7 @@ const dialog = document.querySelector('dialog');
 const cancelBtn = document.querySelector('.cancelBtn');
 const submitBtn = document.querySelector('.submitBtn');
 const deleteAllTasksBtn = document.querySelector('.deleteAllTasksBtn');
-
+const avatar = document.querySelector('.avatar');
 // State
 let todoList = [
     {
