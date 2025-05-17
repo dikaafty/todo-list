@@ -428,7 +428,9 @@ input[type="text"]:-webkit-autofill:active{
 
 /* Overdue tasks section styling start */
 
-
+.overdueTasksSection {
+	display: none;
+}
 
 /* Overdue tasks section styling end */
 
