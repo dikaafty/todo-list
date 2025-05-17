@@ -70,6 +70,10 @@ const getCheckedPriority = () => {
     return priority;
 }
 
+const getTodayDate = () => {
+    return new Date().toISOString().split('T')[0];;
+}
+
 const addTask = () => {
     const task = taskInput.value;
     const date = dateInput.value;
