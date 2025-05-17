@@ -15,6 +15,8 @@ const cancelBtn = document.querySelector('.cancelBtn');
 const submitBtn = document.querySelector('.submitBtn');
 const deleteAllTasksBtn = document.querySelector('.deleteAllTasksBtn');
 const avatar = document.querySelector('.avatar');
+const sidebar = document.querySelector('.sidebar');
+
 // State
 let todoList = [
     {
