@@ -272,6 +272,14 @@ const toggleTodoSection = (el) => {
     document.querySelector(targetClass).style.display = 'flex';
 }
 
+const moveCompletedTask = () => {
+    for(let i = todoList.length - 1; i >= 0; i--) {
+        if(todoList[i].completed) {
+            todoList.push(todoList.splice(i, 1)[0]);
+        }
+    }
+}
+
 
 // Event Listeners
 sidebarNavs.forEach((nav) => {
