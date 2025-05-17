@@ -318,3 +318,10 @@ deleteAllTasksBtn.addEventListener('click', () => {
 
     saveTodoList(todoList);
 });
+
+avatar.addEventListener('click', (e) => {
+    if(mediaQuery.matches) {
+        e.stopPropagation();
+        sidebar.style.display = 'flex';
+    }
+});
