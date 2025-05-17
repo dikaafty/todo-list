@@ -216,6 +216,19 @@ const displayCompletedTask = () => {
 
 displayCompletedTask();
 
+const displayOverdueTask = () => {
+    const todayDate = getTodayDate();
+
+    // Reset overdue todo list
+    overdueTodoList.innerHTML = '';
+
+    todoList.forEach((todo) => {
+        if(todo.date < todayDate && todo.completed === false) {
+            createTodoListElements(todo, overdueTodoList);
+        }
+    });
+}
+
 const deleteAllCompletedTasks = () => {
     const uncompletedTodoList = todoList.filter(todo => todo.completed === false);
     todoList = uncompletedTodoList;
