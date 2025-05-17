@@ -113,6 +113,8 @@ const createTodoListElements = (todo, todoContainer) => {
     inputCheckbox.addEventListener('change' ,() => {
         todo.completed = inputCheckbox.checked;
 
+        moveCompletedTask();
+
         displayTodayTask();
         displayAllTasks();
         displayImportantTask();
