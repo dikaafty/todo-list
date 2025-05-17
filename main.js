@@ -325,3 +325,9 @@ avatar.addEventListener('click', (e) => {
         sidebar.style.display = 'flex';
     }
 });
+
+document.addEventListener('click', (e) => {
+    if(mediaQuery.matches && !sidebar.contains(e.target) && e.target !== avatar) {
+        sidebar.style.display = 'none';
+    }
+});
