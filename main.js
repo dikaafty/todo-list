@@ -16,6 +16,7 @@ const submitBtn = document.querySelector('.submitBtn');
 const deleteAllTasksBtn = document.querySelector('.deleteAllTasksBtn');
 const avatar = document.querySelector('.avatar');
 const sidebar = document.querySelector('.sidebar');
+const mediaQuery = window.matchMedia('(max-width: 768px)');
 
 // State
 let todoList = [
