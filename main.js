@@ -331,3 +331,11 @@ document.addEventListener('click', (e) => {
         sidebar.style.display = 'none';
     }
 });
+
+window.addEventListener('resize', () => {
+    if(window.innerWidth > 768) {
+        sidebar.style.display = 'flex';
+    } else {
+        sidebar.style.display = 'none';
+    }
+});
