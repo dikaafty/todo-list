@@ -165,7 +165,7 @@ const createTodoListElements = (todo, todoContainer) => {
 }
 
 const displayTodayTask = () => {
-    const todayDate = new Date().toISOString().split('T')[0];
+    const todayDate = getTodayDate();
 
     // Reset today todo list
     todayTodoList.innerHTML = '';
