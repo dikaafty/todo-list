@@ -2,6 +2,10 @@
 
 A clean and interactive Todo List application to manage your daily tasks efficiently. This project is designed with simplicity and productivity in mind, offering features like task categorization, editing, and completion tracking.
 
+# Demo
+
+[Live Site](https://dikaafty.github.io/todo-list/)
+
 # Features
 
 - Add, edit, and delete tasks with ease.
